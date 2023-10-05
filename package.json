@@ -1,0 +1,34 @@
+{
+  "name": "lavalink-color-theme",
+  "displayName": "Lavalink",
+  "description": "An eye-catching lavalink theme which powerup your code editor into awesome code editor ;)",
+  "version": "1.0.0",
+  "publisher": "iwinsiju",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XOUT1/Lavalink-dark-theme"
+  },
+  "keywords": [
+    "lavalink",
+    "Dark theme",
+    "vs theme",
+    "blue theme",
+    "blue",
+    "theme vs"
+  ],
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lavalink",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lavalink-color-theme.json"
+      }
+    ]
+  }
+}
